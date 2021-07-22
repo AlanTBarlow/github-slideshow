@@ -1,13 +1,11 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# GitHub Slideshow
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+This project was originally a [**GitHub Learning Lab**](https://lab.github.com) course titled [*"Introduction To GitHub"*](https://lab.github.com/githubtraining/introduction-to-github) and is based on the [reveal.js](https://github.com/hakimel/reveal.js/) open source project. The course was completed then modified by [**me**](https://github.com/alantbarlow) to personalize the project and create a better slideshow.
 
-Oh! I haven't introduced myself...
+## Project Purpose
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+This project is a simple slideshow that lets me introduce myself. It consists of a few different slides that lets you get to know me better and provides links to other networking sites.
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+## Project Usage
 
-I'll meet you over there, can't wait to get started!
-
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+Switching between slides is simple. You can use either the arrows on your keyboard or the ones displayed on the screen to move back and forth between screens. To view the slideshow go to [*alantbarlow.github.io/github-slideshow*](https://alantbarlow.github.io/github-slideshow).
