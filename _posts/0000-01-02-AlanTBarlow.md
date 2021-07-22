@@ -1,6 +1,6 @@
 ---
 layout: slide
-title: "Welcome to our second slide!"
+title: "Let me introduce myself"
 ---
-The second best slide ever!!!
-Use the left arrow to go back!
+<h2>Hi I'm Alan</h2>
+<p>I'm an unofficial software developer that lives in St. George, UT in the United States</p>
