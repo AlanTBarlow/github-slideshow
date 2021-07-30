@@ -3,20 +3,19 @@
 
 <title>{% if post.title %}{{ post.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/node_modules/reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/v4.2.0/dist/reset.css">
+<link rel="stylesheet" href="reveal.js/v4.2.0/dist/reveal.css">
+<link rel="stylesheet" href="reveal.js/v4.2.0/dist/theme/moon.css">
 
-<link rel="stylesheet" href="{{site.baseurl}}/node_modules/reveal.js/css/reset.css">
-<link rel="stylesheet" href="{{site.baseurl}}/node_modules/reveal.js/css/reveal.css">
-<link rel="stylesheet" href="{{site.baseurl}}/node_modules/reveal.js/css/theme/moon.css">
+<!-- Style to get the links in each post to display correctly -->
+<style>
+	#link-container {
+		display: flex;
+		flex-direction: row;
+		margin-top: 50px;
+	}
 
-<!-- Theme used for syntax highlighting of code -->
-<link rel="stylesheet" href="{{site.baseurl}}/node_modules/reveal.js/lib/css/monokai.css">
-
-<!-- Printing and PDF exports -->
-<script>
-	var link = document.createElement( 'link' );
-	link.rel = 'stylesheet';
-	link.type = 'text/css';
-	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'node_modules/reveal.js/css/print/paper.css';
-	document.getElementsByTagName( 'head' )[0].appendChild( link );
-</script>
+	#link-container>.link-container-item {
+		flex: 1;
+	}
+</style>
