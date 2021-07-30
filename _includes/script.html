@@ -1,16 +1,33 @@
-<script src="{{ site.baseurl }}/node_modules/reveal.js/js/reveal.js"></script>
+<script src="reveal.js/v4.2.0/dist/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js' },
-					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js' },
-					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js' },
-					{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
+<script>
+
+	let slideshow = Reveal({
+
+		// Determines where controls appear, "edges" or "bottom-right"
+		controlsLayout: 'edges', // defaults to bottom-right
+
+		// Display the page number of the current slide
+		// - true:    Show slide number
+		// - false:   Hide slide number (default)
+		//
+		// Can optionally be set as a string that specifies the number formatting:
+		// - "h.v":   Horizontal . vertical slide number (default if true)
+		// - "h/v":   Horizontal / vertical slide number
+		// - "c":   Flattened slide number
+		// - "c/t":   Flattened slide number / total slides
+		//
+		// Alternatively, you can provide a function that returns the slide
+		// number for the current slide. The function should take in a slide
+		// object and return an array with one string [slideNumber] or
+		// three strings [n1,delimiter,n2]. See #formatSlideNumber().
+		slideNumber: "c/t", // defaults to false
+
+		// Flags if it should be possible to pause the presentation (blackout)
+		pause: false, // defaults to true
+
+	});
+
+	slideshow.initialize();
+
+</script>
