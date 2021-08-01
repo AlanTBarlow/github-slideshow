@@ -4,12 +4,12 @@ services:
   app:
     build:
       context: ../
-      dockerfile: ./.docker/Dockerfile
+      dockerfile: .docker/Dockerfile
     volumes:
-      - type: bind
-        source: ../
+      - type: volume
+        source: development
         target: /usr/src/app/
     stdin_open: true
 
-
-
+volumes:
+  development:
