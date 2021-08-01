@@ -7,9 +7,10 @@ services:
       dockerfile: .docker/Dockerfile
     volumes:
       - type: volume
-        source: development
+        source: project-slideshow-development
         target: /usr/src/app/
     stdin_open: true
+    tty: true
 
 volumes:
-  development:
+  project-slideshow-development:
