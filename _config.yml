@@ -4,11 +4,11 @@ title: project-slideshow
 author: alantbarlow
 description: A slideshow to showcase my projects.
 
-# Server
-detach: false
-port: 4000
-host: 127.0.0.1
-baseurl: "" # does not include hostname
+# # Server
+# detach: false
+# port: 4000
+# host: 127.0.0.1
+# baseurl: "" # does not include hostname
 
 # Output
 permalink: "/:title"
