@@ -5,6 +5,6 @@
 	"workspaceFolder": "/usr/src/app/",
 	"forwardPorts": [
 		4000
-	]
+	],
 	"workspaceMount": "source=project-slideshow-development,target=/usr/src/app/,type=volume",
 }
