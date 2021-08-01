@@ -2,9 +2,9 @@
 	"name": "alantbarlow/project-slideshow",
 	"dockerComposeFile": ".docker/docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/usr/src/app/",
+	"workspaceMount": "source=your-volume-name-here,target=/usr/src/app,type=volume",
+	"workspaceFolder": "/usr/src/app",
 	"forwardPorts": [
 		4000
-	],
-	"workspaceMount": "project-slideshow-development-vscode:/usr/src/app/",
+	]
 }
