@@ -15,4 +15,6 @@ RUN bundle check || bundle install
 
 COPY . .
 
+WORKDIR /usr/src/app/docs
+
 CMD bundle exec jekyll serve
