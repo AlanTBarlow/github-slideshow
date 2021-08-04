@@ -1,6 +1,6 @@
 {
 	"name": "alantbarlow/project-slideshow",
-	"dockerComposeFile": ".docker/docker-compose.yml",
+	"dockerComposeFile": ".docker/docker-compose.yaml",
 	"service": "app",
 	"workspaceFolder": "/usr/src/app",
 	"forwardPorts": [
