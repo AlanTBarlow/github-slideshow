@@ -17,4 +17,4 @@ COPY . .
 
 WORKDIR /usr/src/app/docs
 
-CMD bundle exec jekyll serve
+ENTRYPOINT bundle exec jekyll serve
