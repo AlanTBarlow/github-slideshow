@@ -10,6 +10,7 @@ services:
       - type: volume
         source: project-slideshow-development
         target: /usr/src/app/
+    entrypoint: ["bundle", "exec", "jekyll", "serve"]
 
 volumes:
   project-slideshow-development:
