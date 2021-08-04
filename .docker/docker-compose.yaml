@@ -4,6 +4,8 @@ services:
   app:
     build: .
     stdin_open: true
+    ports:
+      - "4000:4000"
     volumes:
       - type: volume
         source: project-slideshow-dev-environment
