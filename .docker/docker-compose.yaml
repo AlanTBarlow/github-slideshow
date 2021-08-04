@@ -4,11 +4,10 @@ services:
   app:
     build: .
     stdin_open: true
-    tty: true
     volumes:
       - type: volume
-        source: project-slideshow-development
+        source: project-slideshow-dev-environment
         target: /usr/src/app/
 
 volumes:
-  project-slideshow-development:
+  project-slideshow-dev-environment:
