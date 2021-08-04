@@ -4,13 +4,10 @@ services:
   app:
     build: .
     stdin_open: true
-    tty: true
-    network_mode: "host"
     volumes:
       - type: volume
-        source: project-slideshow-development
+        source: project-slideshow-dev-environment
         target: /usr/src/app/
-    entrypoint: ["bundle", "exec", "jekyll", "serve"]
 
 volumes:
-  project-slideshow-development:
+  project-slideshow-dev-environment:
